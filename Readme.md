@@ -36,6 +36,9 @@ This project showcases a dynamic multi-tab entry form implemented with Node.js, 
 3. **Run the Application:**
    ```bash
    npm app.js
+3. **Env file:**
+   ```bash
+   MONGODB_URI -> get this form MongoDb Altas OR your local mongoDB compass 
 ## Usage
 - Open the application in your browser.
 - Fill in the data across different tabs.
