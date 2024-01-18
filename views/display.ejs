@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="display.css">
+
+    <title>Display Captured Data</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Captured Data</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date of Birth</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Gender</th>
+                    <th>Occupation</th>
+                    <th>ID Type</th>
+                    <th>ID Number</th>
+                    <th>Issued Authority</th>
+                    <th>Issued State</th>
+                    <th>Issued Date</th>
+                    <th>Expiry Date</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td><%= registration.username %></td>
+                    <td><%= registration.dob %></td>
+                    <td><%= registration.email %></td>
+                    <td><%= registration.phone_number %></td>
+                    <td><%= registration.gender %></td>
+                    <td><%= registration.occupation %></td>
+                    <td><%= registration.id_type %></td>
+                    <td><%= registration.id_number %></td>
+                    <td><%= registration.authority %></td>
+                    <td><%= registration.issued_state %></td>
+                    <td><%= registration.issued_date %></td>
+                    <td><%= registration.expiry_date %></td>
+                   
+                </tr>
+               
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    
+                    <th>Address Type</th>
+                    <th>Nationality</th>
+                    <th>State</th>
+                    <th>District</th>
+                    <th>Block Number</th>
+                    <th>Ward Number</th>
+                    <th>Father Name</th>
+                    <th>Mother Name</th>
+                    <th>Grandfather Name</th>
+                    <th>Designation</th>
+                    <th>Annual Salary</th>
+                    <th>Educational Qualification</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    
+                    <td><%= registration.address %></td>
+                    <td><%= registration.nationality %></td>
+                    <td><%= registration.state %></td>
+                    <td><%= registration.district %></td>
+                    <td><%= registration.block_no %></td>
+                    <td><%= registration.ward_no %></td>
+                    <td><%= registration.father_name %></td>
+                    <td><%= registration.mother_name %></td>
+                    <td><%= registration.grandfather_name %></td>
+                    <td><%= registration.designation %></td>
+                    <td><%= registration.salary %></td>
+                    <td><%= registration.education %></td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
